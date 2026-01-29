@@ -1,0 +1,16 @@
+{
+  "Environments": [
+    "Env_Zone1_Azure"
+  ],
+  "NPCs": [
+    {
+      "Weight": 12,
+      "SpawnBlockSet": "Soil",
+      "Id": "Voltizard"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    24
+  ]
+}

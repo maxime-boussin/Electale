@@ -1,0 +1,21 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemPlayerAnimationsId": "Voltizard_Default",
+    "ItemAnimationId": "Fire"
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 0.3,
+  "Next": {
+    "Type": "LaunchProjectile",
+    "RunTime": 0.5,
+    "Effects": {
+      "WorldSoundEventId": "SFX_Voltizard_Growl",
+      "LocalSoundEventId": "SFX_Voltizard_Growl"
+    },
+    "ProjectileId": "Thunder_Bolt",
+    "Tags": {
+      "AimingReference": []
+    }
+  }
+}

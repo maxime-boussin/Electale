@@ -1,0 +1,23 @@
+{
+  "Parent": "DamageEntityParent",
+  "DamageCalculator": {
+    "BaseDamage": {
+      "Physical": 40
+    }
+  },
+  "DamageEffects": {
+    "Knockback": {
+      "Force": 1,
+      "RelativeX": 0,
+      "RelativeZ": 5,
+      "VelocityY": 5
+    },
+    "WorldSoundEventId": "SFX_Voltizard_Bite",
+    "LocalSoundEventId": "SFX_Voltizard_Bite",
+    "WorldParticles": [
+      {
+        "SystemId": "Impact_Electric_Bite"
+      }
+    ]
+  }
+}

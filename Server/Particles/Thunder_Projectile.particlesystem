@@ -1,0 +1,22 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Thunder_Projectile_Trail",
+      "EmitOffset": {
+        "Y": {
+          "Min": 0,
+          "Max": 0
+        },
+        "X": {
+          "Min": 0,
+          "Max": 0
+        }
+      },
+      "PositionOffset": {
+        "Z": 0
+      }
+    }
+  ],
+  "CullDistance": 100.0,
+  "IsImportant": false
+}

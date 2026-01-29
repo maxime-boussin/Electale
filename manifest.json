@@ -1,0 +1,20 @@
+{
+  "Group": "GrankorSalade",
+  "Name": "Electale",
+  "Version": "0.1.0",
+  "Description": "A mod about electricity and automation",
+  "Authors": [
+    {
+      "Name": "GrankorSalade",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

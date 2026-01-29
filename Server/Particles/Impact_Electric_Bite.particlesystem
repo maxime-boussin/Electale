@@ -1,0 +1,31 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Impact_Electric_Glow",
+      "EmitOffset": {
+        "Y": {
+          "Min": 0,
+          "Max": 0
+        },
+        "X": {
+          "Min": 0,
+          "Max": 0
+        }
+      },
+      "PositionOffset": {
+        "Z": 0
+      },
+      "Light": {
+        "Color": "#6ac",
+        "Radius": 20,
+        "Intensity": 2,
+        "Duration": 0.15
+      },
+      "Lifetime": {
+        "Time": 0.2
+      }
+    }
+  ],
+  "CullDistance": 100.0,
+  "IsImportant": false
+}

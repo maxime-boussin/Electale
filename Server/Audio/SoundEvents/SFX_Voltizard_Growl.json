@@ -1,0 +1,14 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Voltizard_Growl_01.ogg"
+      ],
+      "Volume": -2,
+      "StartDelay": 0
+    }
+  ],
+  "Volume": -2.0,
+  "PreventSoundInterruption": true,
+  "Parent": "SFX_Attn_Moderate"
+}

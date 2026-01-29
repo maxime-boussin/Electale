@@ -1,0 +1,24 @@
+{
+  "Damage": 40,
+  "Appearance": "Thunder_Orb",
+  "HitSoundEventId": "SFX_Voltizard_Thunder",
+  "MissSoundEventId": "SFX_Voltizard_Thunder",
+  "PitchAdjustShot": true,
+  "SticksVertically": true,
+  "MuzzleVelocity": 30,
+  "TerminalVelocity": 50,
+  "Gravity": 0,
+  "DeathEffectsOnHit": true,
+  "TimeToLive": 3.1,
+  "DeadTimeMiss": 0,
+  "ImpactSlowdown": 0,
+  "DepthShot": 1,
+  "DeathParticles": {
+    "SystemId": "Lightning"
+  },
+  "VerticalCenterShot": 0.1,
+  "HitParticles": {
+    "SystemId": "Lightning"
+  },
+  "HorizontalCenterShot": -0.25
+}

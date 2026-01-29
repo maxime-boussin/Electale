@@ -1,0 +1,21 @@
+
+{
+  "Type": "Variant",
+  "Reference": "Template_Dragon",
+  "Modify": {
+    "Appearance": "Voltizard",
+    "DropList": "Drop_Raptor_Cave",
+    "MaxHealth": 150,
+    "IsMemory": true,
+    "MemoriesCategory": "Elemental",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Voltizard.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

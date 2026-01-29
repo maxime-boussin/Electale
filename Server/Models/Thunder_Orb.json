@@ -1,0 +1,33 @@
+{
+  "Model": "Items/Projectiles/Fireball.blockymodel",
+  "Texture": "Items/Projectiles/Ice_Bolt_Texture.png",
+  "HitBox": {
+    "Max": {
+      "X": 0.1,
+      "Y": 0.1,
+      "Z": 0.1
+    },
+    "Min": {
+      "X": -0.1,
+      "Y": -0.1,
+      "Z": -0.1
+    }
+  },
+  "MinScale": 3,
+  "MaxScale": 5,
+  "Particles": [
+    {
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "SystemId": "Thunder_Projectile",
+      "TargetNodeName": ""
+    }
+  ],
+  "Light": {
+    "Color": "#6ac",
+    "Radius": 0
+  }
+}

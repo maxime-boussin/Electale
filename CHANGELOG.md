@@ -1,6 +1,7 @@
 # Changelog
 
-## Mobs
+## v0.1.0
+### Mobs
  - Creation of Voltizard
    - Create Voltizard model and animations
    - Add Voltizard melee attack

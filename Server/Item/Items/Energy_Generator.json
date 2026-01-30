@@ -86,6 +86,9 @@
     "VariantRotation": "NESW",
     "ParticleColor": "#8e6620",
     "Particles": [
+      {
+        "SystemId": "Generator_Surge_Effect"
+      }
     ]
   },
   "Model": "Resources/Generator/Generator.blockymodel",

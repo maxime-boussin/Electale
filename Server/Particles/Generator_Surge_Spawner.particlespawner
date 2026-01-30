@@ -2,153 +2,153 @@
   "RenderMode": "BlendAdd",
   "EmitOffset": {
     "X": {
-      "Min": 0.5,
-      "Max": 0.5
+      "Min": 0,
+      "Max": 0
     },
     "Y": {
-      "Min": 0,
-      "Max": 0.2
+      "Min": 0.2,
+      "Max": 0
     },
     "Z": {
-      "Min": 0.5,
-      "Max": 0.5
+      "Min": 0,
+      "Max": 0
     }
   },
   "ParticleRotationInfluence": "Billboard",
-  "LinearFiltering": false,
+  "LinearFiltering": true,
   "LightInfluence": 0,
   "ParticleRotateWithSpawner": true,
   "TrailSpawnerPositionMultiplier": 1,
   "TrailSpawnerRotationMultiplier": 1,
-  "MaxConcurrentParticles": 5,
+  "MaxConcurrentParticles": 40,
   "ParticleLifeSpan": {
-    "Min": 0.6666666666666666,
-    "Max": 0.8333333333333334
-  },
-  "SpawnRate": {
-    "Min": 12,
-    "Max": 36
-  },
-  "TotalParticles": {
-    "Min": -1,
-    "Max": -1
+    "Min": 0.25,
+    "Max": 0.3
   },
   "InitialVelocity": {
     "Speed": {
-      "Min": -0.12,
-      "Max": -0.24
+      "Min": 0,
+      "Max": 0
     },
     "Yaw": {
       "Min": 0,
       "Max": 0
     },
     "Pitch": {
-      "Min": 75,
-      "Max": 105
+      "Min": 0,
+      "Max": 0
     }
   },
-  "Attractors": [
-    {
-      "Position": {
-        "X": 0,
-        "Y": 0,
-        "Z": 0
-      },
-      "RadialAxis": {
-        "X": 0,
-        "Y": 1,
-        "Z": 0
-      },
-      "Radius": 0,
-      "RadialAcceleration": 0,
-      "RadialTangentAcceleration": 0.36,
-      "RadialImpulse": -0.003,
-      "LinearAcceleration": {
-        "X": 0,
-        "Y": 0,
-        "Z": 0
-      }
-    }
-  ],
   "Particle": {
-    "Texture": "Particles/Textures/Basic/Ball3.png",
-    "FrameSize": {
-      "Width": 32,
-      "Height": 32
-    },
-    "ScaleRatioConstraint": "OneToOne",
+    "Texture": "Particles/Lightning3.png",
+    "ScaleRatioConstraint": "None",
+    "UVOption": "None",
     "Animation": {
       "0": {
         "FrameIndex": {
           "Min": 0,
           "Max": 0
         },
+        "Opacity": 1,
+        "Color": "#fff75b",
         "Scale": {
           "X": {
-            "Min": 1,
-            "Max": 1
+            "Min": 0.2,
+            "Max": 0.2
           },
           "Y": {
-            "Min": 1,
-            "Max": 1
+            "Min": 0.2,
+            "Max": 0.2
           }
-        },
-        "Rotation": {
-          "X": {
-            "Min": 0,
-            "Max": 0
-          },
-          "Y": {
-            "Min": 0,
-            "Max": 0
-          },
-          "Z": {
-            "Min": 0,
-            "Max": 0
-          }
-        },
-        "Opacity": 0
+        }
       },
-      "50": {
-        "Opacity": 0.55
+      "17": {
+        "FrameIndex": {
+          "Min": 1,
+          "Max": 1
+        }
       },
-      "70": {
-        "Opacity": 0.3
+      "34": {
+        "FrameIndex": {
+          "Min": 2,
+          "Max": 2
+        },
+        "Color": "#ffed78",
+        "Opacity": 1
+      },
+      "51": {
+        "FrameIndex": {
+          "Min": 3,
+          "Max": 3
+        }
+      },
+      "68": {
+        "FrameIndex": {
+          "Min": 4,
+          "Max": 4
+        },
+        "Color": "#fff1bc",
+        "Opacity": 1
+      },
+      "85": {
+        "Opacity": 1,
+        "Color": "#1d87ff",
+        "FrameIndex": {
+          "Min": 5,
+          "Max": 5
+        }
       },
       "100": {
-        "Opacity": 0
+        "Scale": {
+          "X": {
+            "Min": 0.2,
+            "Max": 0.2
+          },
+          "Y": {
+            "Min": 0.2,
+            "Max": 0.2
+          }
+        }
       }
     },
     "InitialAnimationFrame": {
-      "Rotation": {
-        "X": {
-          "Min": 0,
-          "Max": 360
-        },
-        "Y": {
-          "Min": 0,
-          "Max": 0
-        },
-        "Z": {
-          "Min": 0,
-          "Max": 360
-        }
+      "Opacity": 0.704,
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 5
       },
       "Scale": {
         "X": {
-          "Min": 0.1,
-          "Max": 0.35
+          "Min": 0.17,
+          "Max": 0.17
         },
         "Y": {
-          "Min": 0.1,
-          "Max": 0.35
+          "Min": 0.17,
+          "Max": 0.17
         }
       },
-      "Opacity": 1,
-      "FrameIndex": {
-        "Min": 0,
-        "Max": 0
+      "Rotation": {
+        "X": {
+          "Max": 360
+        },
+        "Y": {
+          "Max": 360
+        },
+        "Z": {
+          "Max": 360
+        }
       }
+    },
+    "SoftParticles": "Require",
+    "FrameSize": {
+      "Width": 341,
+      "Height": 768
     }
-  }
+  },
+  "SpawnBurst": false,
+  "SpawnRate": {
+    "Min": 5,
+    "Max": 6
+  },
+  "IsLowRes": false
 }

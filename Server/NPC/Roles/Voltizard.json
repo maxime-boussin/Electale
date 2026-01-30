@@ -4,7 +4,7 @@
   "Reference": "Template_Dragon",
   "Modify": {
     "Appearance": "Voltizard",
-    "DropList": "Drop_Raptor_Cave",
+    "DropList": "Drop_Voltizard",
     "MaxHealth": 150,
     "IsMemory": true,
     "MemoriesCategory": "Elemental",

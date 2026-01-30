@@ -1,0 +1,53 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ingredient_Energy_Core.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Ingredient_Energy_Core.png",
+  "Quality": "Uncommon",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Model": "Resources/Energy_Core/Energy_Core.blockymodel",
+  "Texture": "Resources/Energy_Core/Energy_Core_Texture.png",
+  "IconProperties": {
+    "Scale": 0.55,
+    "Rotation": [
+      0,
+      45,
+      0
+    ],
+    "Translation": [
+      0,
+      -19
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "Scale": 0.5,
+  "Light": {
+    "Color": "#035",
+    "Radius": 0
+  },
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "DropOnDeath": true,
+  "Particles": [
+    {
+      "SystemId": "Surge_Effect",
+      "Scale": 0.7,
+      "PositionOffset": {
+        "X": 0,
+        "Z": 0,
+        "Y": 0.4
+      },
+      "DetachedFromModel": false,
+      "Color": "#ffffff"
+    }
+  ],
+  "PlayerAnimationsId": "Item"
+}

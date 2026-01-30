@@ -3,15 +3,15 @@
   "EmitOffset": {
     "X": {
       "Min": 0,
-      "Max": 0.25
+      "Max": 0
     },
     "Y": {
       "Min": 0,
-      "Max": 0.25
+      "Max": 0
     },
     "Z": {
       "Min": 0,
-      "Max": 0.25
+      "Max": 0
     }
   },
   "ParticleRotationInfluence": "Billboard",
@@ -22,8 +22,8 @@
   "TrailSpawnerRotationMultiplier": 1,
   "MaxConcurrentParticles": 40,
   "ParticleLifeSpan": {
-    "Min": 0.3,
-    "Max": 0.5
+    "Min": 0.25,
+    "Max": 0.3
   },
   "InitialVelocity": {
     "Speed": {
@@ -112,7 +112,7 @@
       }
     },
     "InitialAnimationFrame": {
-      "Opacity": 0.48,
+      "Opacity": 1,
       "FrameIndex": {
         "Min": 0,
         "Max": 5
@@ -147,7 +147,7 @@
   },
   "SpawnBurst": false,
   "SpawnRate": {
-    "Min": 2,
-    "Max": 3
+    "Min": 5,
+    "Max": 6
   }
 }

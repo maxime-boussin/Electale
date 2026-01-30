@@ -1,0 +1,117 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Energy_Generator.name"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "CustomModel": "Resources/Generator/Generator.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Generator/Generator_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false
+      }
+    },
+    "HitboxType": "Statue_Small",
+    "Light": {
+      "Color": "#79b",
+      "Radius": 0
+    },
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "State": {
+      "Definitions": {
+        "White": {
+          "Light": {
+            "Color": "#69b"
+          }
+        },
+        "Yellow": {
+          "Light": {
+            "Color": "#ec6"
+          }
+        },
+        "Blue": {
+          "Light": {
+            "Color": "#9ad"
+          }
+        },
+        "Cyan": {
+          "Light": {
+            "Color": "#0ef"
+          }
+        },
+        "Red": {
+          "Light": {
+            "Color": "#fa8"
+          }
+        },
+        "Green": {
+          "Light": {
+            "Color": "#bda"
+          }
+        },
+        "Pink": {
+          "Light": {
+            "Color": "#dac"
+          }
+        },
+        "Purple": {
+          "Light": {
+            "Color": "#c6f"
+          }
+        }
+      }
+    },
+    "CustomModelAnimation": "Resources/Generator/Energy_Geterator_Idle.blockyanim",
+    "Looping": true,
+    "VariantRotation": "NESW",
+    "ParticleColor": "#8e6620",
+    "Particles": [
+    ]
+  },
+  "Model": "Resources/Generator/Generator.blockymodel",
+  "Texture": "Resources/Generator/Generator_Texture.png",
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "$Comment": " ",
+  "IconProperties": {
+    "Scale": 0.48,
+    "Rotation": [
+      346,
+      145,
+      11
+    ],
+    "Translation": [
+      0,
+      -27
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Scale": 1,
+  "ItemLevel": 6,
+  "MaxStack": 1,
+  "Icon": "Icons/ItemsGenerated/Energy_Generator.png",
+  "UsePlayerAnimations": true
+}

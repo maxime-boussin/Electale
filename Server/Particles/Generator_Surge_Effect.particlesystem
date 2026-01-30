@@ -1,0 +1,33 @@
+{
+  "Spawners": [
+    {
+      "EmitOffset": {
+        "Y": {
+          "Min": 0,
+          "Max": 0
+        },
+        "X": {
+          "Min": 0,
+          "Max": 0
+        }
+      },
+      "PositionOffset": {
+        "Z": 0,
+        "X": 0,
+        "Y": 0
+      },
+      "Light": {
+        "Color": "#6ac",
+        "Radius": 20,
+        "Intensity": 2,
+        "Duration": 0.15
+      },
+      "Lifetime": {
+        "Time": 0.2
+      },
+      "SpawnerId": "Generator_Surge_Spawner"
+    }
+  ],
+  "CullDistance": 100.0,
+  "IsImportant": false
+}

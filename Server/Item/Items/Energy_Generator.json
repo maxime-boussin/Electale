@@ -113,8 +113,29 @@
   },
   "ItemSoundSetId": "ISS_Items_Metal",
   "Scale": 1,
-  "ItemLevel": 6,
+  "ItemLevel": 1,
   "MaxStack": 1,
   "Icon": "Icons/ItemsGenerated/Energy_Generator.png",
-  "UsePlayerAnimations": true
+  "UsePlayerAnimations": true,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Energy_Core",
+        "Quantity": 2
+      }
+    ],
+    "TimeSeconds": 3,
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_Tinkering"
+        ]
+      }
+    ]
+  }
 }
